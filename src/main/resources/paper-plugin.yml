@@ -1,0 +1,11 @@
+name: WarpCommands
+version: '${project.version}'
+main: org.warpcommands.warpcommands.WarpCommands
+prefix: Warp
+authors: [ Xmatvei ]
+description: Plugin de Warp
+
+commands:
+  WarpLobby:
+    description: Commando para teleportar para o Lobby.
+    usage: /warp lobby
