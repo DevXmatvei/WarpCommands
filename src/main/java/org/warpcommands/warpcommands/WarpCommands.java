@@ -19,7 +19,6 @@ public final class WarpCommands extends JavaPlugin {
         this.getCommand("warp help").setExecutor(new WarpHelp());
         this.getCommand("warp lobby").setExecutor(new WarpLobby());
         this.getCommand("warp arena").setExecutor(new WarpArena());
-        this.getCommand("createwarp <cordenadas>").setExecutor(new DefinirWarp());
     }
 
     public void RegisterEvents() {
